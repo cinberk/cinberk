@@ -94,7 +94,38 @@ messages": [
         "resource": "4.7.d.2.0.e.4.0.2.0.a.2.ip6.arpa",
         "authenticated": true,
         "cache": null
-    },
+    }This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<whois-resources xmlns:xlink="http://www.w3.org/1999/xlink">
+<objects>
+<object type="route6">
+<link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/route6/2001:818::/29AS12353"/>
+<source id="ripe"/>
+<primary-key>
+<attribute name="route6" value="2001:818::/29"/>
+<attribute name="origin" value="AS12353"/>
+</primary-key>
+<attributes>
+<attribute name="route6" value="2001:818::/29"/>
+<attribute name="descr" value="Vodafone Portugal"/>
+<attribute name="mnt-lower" value="AS12353-MNT" referenced-type="mntner">
+<link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/AS12353-MNT"/>
+</attribute>
+<attribute name="mnt-routes" value="AS12353-MNT" referenced-type="mntner">
+<link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/AS12353-MNT"/>
+</attribute>
+<attribute name="origin" value="AS12353"/>
+<attribute name="mnt-by" value="AS12353-MNT" referenced-type="mntner">
+<link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/AS12353-MNT"/>
+</attribute>
+<attribute name="created" value="2013-06-17T14:53:42Z"/>
+<attribute name="last-modified" value="2013-06-17T14:53:42Z"/>
+<attribute name="source" value="RIPE"/>
+</attributes>
+</object>
+</objects>
+<terms-and-conditions xlink:type="locator" xlink:href="http://www.ripe.net/db/support/db-terms-conditions.pdf"/>
+<version version="1.104" timestamp="2022-09-26T14:38:32Z" commit-id="3055f75"/>
+</whois-resources>
     "query_id": "20221017014545-25b96e3e-6de8-4ad8-956f-aabd7f3dd5f9",
     "process_time": 251,
     "server_id": "app144",
